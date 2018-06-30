@@ -1,15 +1,15 @@
 /*
 
 
-      /^         /^^ ^^      /^^         /^       /^^^^^^^        /^^^^     
-     /^ ^^     /^^    /^^ /^^   /^^     /^ ^^     /^^    /^^    /^^    /^^  
+      /^         /^^ ^^      /^^         /^       /^^^^^^^        /^^^^
+     /^ ^^     /^^    /^^ /^^   /^^     /^ ^^     /^^    /^^    /^^    /^^
     /^  /^^     /^^      /^^           /^  /^^    /^^    /^^  /^^        /^^
    /^^   /^^      /^^    /^^          /^^   /^^   /^ /^^      /^^        /^^
   /^^^^^^ /^^        /^^ /^^         /^^^^^^ /^^  /^^  /^^    /^^        /^^
- /^^       /^^ /^^    /^^ /^^   /^^ /^^       /^^ /^^    /^^    /^^     /^^ 
-/^^         /^^  /^^ ^^     /^^^^  /^^         /^^/^^      /^^    /^^^^     
-                                                                            
-________________________________________________________________________________   
+ /^^       /^^ /^^    /^^ /^^   /^^ /^^       /^^ /^^    /^^    /^^     /^^
+/^^         /^^  /^^ ^^     /^^^^  /^^         /^^/^^      /^^    /^^^^
+
+________________________________________________________________________________
 
 BOOTSPACER 1.0
 Created on: 9-Nov-2017, 00.26.36
@@ -42,18 +42,18 @@ ________________________________________________________________________________
 .space {margin-top: 100px;margin-bottom: 100px;}
 .space-top {margin-top: 100px;}
 .space-bottom {margin-bottom: 100px;}
-.space-50 {margin-top: 50px;margin-bottom: 50px;} 
+.space-50 {margin-top: 50px;margin-bottom: 50px;}
 .space-50-top {margin-top: 50px;}
 .space-50-bottom {margin-bottom: 50px;}
 .space-30 {margin-top: 30px;margin-bottom: 30px;}
 .space-30-top {margin-top: 30px;}
 .space-30-bottom {margin-bottom: 30px;}
-.space-15 {margin-top: 15px;margin-bottom: 15px;} 
+.space-15 {margin-top: 15px;margin-bottom: 15px;}
 .space-15-top {margin-top: 15px;}
 .space-15-bottom {margin-bottom: 15px;}
 
 
-// Reset 
+// Reset
 
 .no-air {padding-left: 0px !important; padding-right: 0px !important;}
 .no-air-left {padding-left: 0px !important; }
@@ -77,16 +77,16 @@ ________________________________________________________________________________
 
 @media(min-width:1200px){
 
-    
-    .air-mobile-lg {padding-top: 100px;padding-bottom: 100px;}
-    .air-mobile-lg-top {padding-top: 100px;}
-    .air-mobile-lg-bottom {padding-bottom: 100px;}
-    .air-mobile-lg-50 {padding-top: 50px;padding-bottom: 50px;}
-    .air-mobile-lg-50-top {padding-top: 50px;}
-    .air-mobile-lg-50-bottom {padding-bottom: 50px;}
-    .air-mobile-lg-30 {padding-top: 30px;padding-bottom: 30px;}
-    .air-mobile-lg-30-top {padding-top: 30px;}
-    .air-mobile-lg-30-bottom {padding-bottom: 30px;}
+
+    .air-lg {padding-top: 100px;padding-bottom: 100px;}
+    .air-lg-top {padding-top: 100px;}
+    .air-lg-bottom {padding-bottom: 100px;}
+    .air-lg-50 {padding-top: 50px;padding-bottom: 50px;}
+    .air-lg-50-top {padding-top: 50px;}
+    .air-lg-50-bottom {padding-bottom: 50px;}
+    .air-lg-30 {padding-top: 30px;padding-bottom: 30px;}
+    .air-lg-30-top {padding-top: 30px;}
+    .air-lg-30-bottom {padding-bottom: 30px;}
 
     // Margin classes
 
@@ -99,7 +99,7 @@ ________________________________________________________________________________
     .space-lg-30 {margin-top: 30px;margin-bottom: 30px;}
     .space-lg-30-top {margin-top: 30px;}
     .space-lg-30-bottom {margin-bottom: 30px;}
-    .space-lg-15 {margin-top: 15px;margin-bottom: 15px;} 
+    .space-lg-15 {margin-top: 15px;margin-bottom: 15px;}
     .space-lg-15-top {margin-top: 15px;}
     .space-lg-15-bottom {margin-bottom: 15px;}
 
@@ -115,15 +115,26 @@ ________________________________________________________________________________
     .no-space-lg-left {margin-left: 0px !important; }
     .no-space-lg-right {margin-right: 0px !important;}
 
-    
+
 }
 
 
-@media(min-width:992px){
-
-
+@media(min-width:992px) and (max-width:1199px){
 
     .air {padding-top: 70px;padding-bottom: 70px;}
+    .air-top {padding-top: 70px;}
+    .air-bottom {padding-bottom: 70px;}
+    .air-50 {padding-top: 30px; padding-bottom: 30px;}
+    .air-50-top {padding-top: 30px;}
+    .air-50-bottom {padding-bottom: 30px;}
+    .air-30 {padding-top: 30px;padding-bottom: 15px;}
+    .air-30-top {padding-top: 15px;}
+    .air-30-bottom {padding-bottom: 15px;}
+    .air-15 {padding-top: 15px;padding-bottom: 15px;}
+    .air-15-top {padding-top: 15px;}
+    .air-15-bottom {padding-bottom: 15px;}
+
+
     .air-mobile-sm {padding-top: 70px;padding-bottom: 70px;}
     .air-mobile-sm-top {padding-top: 70px;}
     .air-mobile-sm-bottom {padding-bottom: 70px;}
@@ -136,6 +147,24 @@ ________________________________________________________________________________
 
     // Margin classes
 
+
+    // Margin classes
+
+.space {margin-top: 70px;margin-bottom: 70px;}
+.space-top {margin-top: 70px;}
+.space-bottom {margin-bottom: 70px;}
+.space-50 {margin-top: 30px;margin-bottom: 30px;}
+.space-50-top {margin-top: 30px;}
+.space-50-bottom {margin-bottom: 30px;}
+.space-30 {margin-top: 15px;margin-bottom: 15px;}
+.space-30-top {margin-top: 15px;}
+.space-30-bottom {margin-bottom: 15px;}
+.space-15 {margin-top: 15px;margin-bottom: 15px;}
+.space-15-top {margin-top: 15px;}
+.space-15-bottom {margin-bottom: 15px;}
+
+
+
     .space-sm {margin-top: 70px;margin-bottom: 70px;}
     .space-sm-top {margin-top: 70px;}
     .space-sm-bottom {margin-bottom: 70px;}
@@ -145,7 +174,7 @@ ________________________________________________________________________________
     .space-sm-30 {margin-top: 30px;margin-bottom: 30px;}
     .space-sm-30-top {margin-top: 30px;}
     .space-sm-30-bottom {margin-bottom: 30px;}
-    .space-sm-15 {margin-top: 15px;margin-bottom: 15px;} 
+    .space-sm-15 {margin-top: 15px;margin-bottom: 15px;}
     .space-sm-15-top {margin-top: 15px;}
     .space-sm-15-bottom {margin-bottom: 15px;}
 
@@ -167,7 +196,18 @@ ________________________________________________________________________________
 
 
 
-@media(min-width:767px){
+@media(min-width:768px) and (max-width:991px) {
+
+  .air {padding-top: 50px;padding-bottom: 50px;}
+  .air-top {padding-top: 50px;}
+  .air-bottom {padding-bottom: 50px;}
+  .air-50 {padding-top: 20px;padding-bottom: 20px;}
+  .air-50-top {padding-top: 20px;}
+  .air-50-bottom {padding-bottom: 20px;}
+  .air-30 {padding-top: 15px;padding-bottom: 15px;}
+  .air-30-top {padding-top: 15px;}
+  .air-30-bottom {padding-bottom: 15px;}
+
 
 
     .air-mobile-sm {padding-top: 50px;padding-bottom: 50px;}
@@ -191,7 +231,7 @@ ________________________________________________________________________________
     .space-sm-30 {margin-top: 20px;margin-bottom: 20px;}
     .space-sm-30-top {margin-top: 20px;}
     .space-sm-30-bottom {margin-bottom: 20px;}
-    .space-sm-15 {margin-top: 15px;margin-bottom: 15px;} 
+    .space-sm-15 {margin-top: 15px;margin-bottom: 15px;}
     .space-sm-15-top {margin-top: 15px;}
     .space-sm-15-bottom {margin-bottom: 15px;}
 
@@ -209,7 +249,7 @@ ________________________________________________________________________________
 
 
     .mobile-center {  text-align: center; margin: 0 auto;}
-    
+
 }
 
 
@@ -233,7 +273,7 @@ ________________________________________________________________________________
     .space {margin-top: 30px;margin-bottom: 30px;}
     .space-top {margin-top: 30px;}
     .space-bottom {margin-bottom: 30px;}
-    .space-50 {margin-top: 20px;margin-bottom: 20px;} 
+    .space-50 {margin-top: 20px;margin-bottom: 20px;}
     .space-50-top {margin-top: 20px;}
     .space-50-bottom {margin-bottom: 20px;}
 
@@ -261,7 +301,7 @@ ________________________________________________________________________________
     .space-xs-30 {margin-top: 30px;margin-bottom: 30px;}
     .space-xs-30-top {margin-top: 30px;}
     .space-xs-30-bottom {margin-bottom: 30px;}
-    .space-xs-15 {margin-top: 15px;margin-bottom: 15px;} 
+    .space-xs-15 {margin-top: 15px;margin-bottom: 15px;}
     .space-xs-15-top {margin-top: 15px;}
     .space-xs-15-bottom {margin-bottom: 15px;}
 
@@ -278,7 +318,6 @@ ________________________________________________________________________________
     .no-space-xs-right {margin-right: 0px !important;}
 
     .mobile-center {  text-align: center; margin: 0 auto;}
-    
+
 
 }
-
